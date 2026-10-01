@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>inner HTML</title>
+<script type="text/javascript">
+function f1(){
+ var style="<h2 style='color:pink;background-color:gold;'>";
+ var text="Welcome to this side";
+ var closestyle="</h2>";
+ document.getElementById('para').innerHTML=style+text+closestyle;
+}
+</script></head>
+<body style="background-color:cyan">
+<p id="para">there is nothing interested so click on click button</p>
+<input type="button" value="click" onClick="f1()">
+
+</body></html>

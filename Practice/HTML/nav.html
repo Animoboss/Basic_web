@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Graphical Navigation Bar</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f3f4f7;
+    }
+
+    /* Navigation Bar */
+    nav {
+        background: linear-gradient(90deg, #4b73ff, #8c4bff);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 40px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        position: sticky;
+        top: 0;
+    }
+
+    .logo {
+        font-size: 26px;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 25px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 10px 16px;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    .menu a:hover {
+        background: rgba(255, 255, 255, 0.25);
+        transform: scale(1.05);
+    }
+
+    /* Icons */
+    .menu a img {
+        width: 20px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
+    .content {
+        padding: 40px;
+        font-size: 20px;
+        color: #333;
+    }
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">My Website</div>
+    <div class="menu">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1946/1946488.png">Home</a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1828/1828817.png">Services</a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/833/833593.png">Gallery</a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/597/597177.png">Contact</a>
+    </div>
+</nav>
+
+<div class="content">
+    <h2>Welcome!</h2>
+    <p>This webpage contains a graphical navigation bar built using HTML and CSS only.</p>
+</div>
+
+</body>
+</html>

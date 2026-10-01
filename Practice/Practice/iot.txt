@@ -1,0 +1,6 @@
+Cloud computing :- Cloud computing is a model for enabling , convenient on demand network assess to a shared pool of computing resource like  network ,service released with service provider interaction.
+
+Models of Cloud computing:-There are three primary service models of cloud computing that are Infrastructure as a service (IaaS),Platform as a Service  (PaaS), and Platform as a service (SaaS).
+1.Infrastructure as service(IaaS):-IaaS give access to the user for storage, computing as a service. Still user is  responsible for managing there data, application ,middleware etc. IaaS provide automated and scalable environment that provides a high degree of control and flexibity for the user.
+Application:
+ .Instead of purchasing hardware outright,user pay for IaaS on demandn.  

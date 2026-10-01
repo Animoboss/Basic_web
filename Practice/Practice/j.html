@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head><title>Even odd</title>
+<script>
+function f1()
+{
+ var a,ans;
+a=parseInt(frm1.t1.value);
+ans=1;
+for(i=2;i<a;i++){
+  if(a%i==0)
+ {
+   ans=0;
+   break;}
+}
+if(ans==1) 
+  alert("Number is prime");
+else 
+ alert("Number is not prime");
+}    
+</script>
+</head>
+<body>
+<form name="frm1">
+<input type="text" name="t1" ><br>
+<input type="button" value="click" onClick="f1()">
+</form>
+</body></html>

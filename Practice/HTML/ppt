@@ -1,0 +1,47 @@
+Set pres = ActivePresentation
+
+' Slide 1: Title
+Set s = pres.Slides.Add(pres.Slides.Count + 1, ppLayoutTitle)
+s.Shapes.Title.TextFrame.TextRange.Text = "The World Tariff and Tax System"
+s.Shapes(2).TextFrame.TextRange.Text = "Unique Good and Bad Perspectives" & vbCrLf & "An Analytical Overview" & vbCrLf & "[Your Name & Date]"
+
+' Slide 2
+Set s = pres.Slides.Add(pres.Slides.Count + 1, ppLayoutText)
+s.Shapes.Title.TextFrame.TextRange.Text = "What Are Tariffs and Taxes?"
+s.Shapes(2).TextFrame.TextRange.Text = "-  Tariffs = Taxes on imports/exports " & vbCrLf & _[4][5]
+    "-  Domestic taxes = Levies on business & consumer activities " & vbCrLf & _[5][4]
+    "-  Purposes: Regulate trade, protect domestic sectors, fund governments "[4][5]
+
+' Slide 3
+Set s = pres.Slides.Add(pres.Slides.Count + 1, ppLayoutText)
+s.Shapes.Title.TextFrame.TextRange.Text = "Global Tariff Structure"
+s.Shapes(2).TextFrame.TextRange.Text = "-  Global average tariff rate ≈ 2.6% " & vbCrLf & _[6]
+    "-  WTO and agreements work to harmonize & lower tariffs "[4]
+
+' Slide 4
+Set s = pres.Slides.Add(pres.Slides.Count + 1, ppLayoutText)
+s.Shapes.Title.TextFrame.TextRange.Text = "Unique Good Points"
+s.Shapes(2).TextFrame.TextRange.Text = "-  Protects local industries & jobs " & vbCrLf & _[7][8]
+    "-  Encourages domestic investment/innovation " & vbCrLf & _[8]
+    "-  Generates government revenue " & vbCrLf & _[9]
+    "-  Used as negotiation leverage in trade deals "[9]
+
+' Slide 5
+Set s = pres.Slides.Add(pres.Slides.Count + 1, ppLayoutText)
+s.Shapes.Title.TextFrame.TextRange.Text = "Unique Bad Points"
+s.Shapes(2).TextFrame.TextRange.Text = "-  Can trigger retaliatory trade wars " & vbCrLf & _[10][6]
+    "-  Higher prices for consumers & manufacturers " & vbCrLf & _[10][9]
+    "-  Can distort market by supporting inefficient sectors " & vbCrLf & _[5][10]
+    "-  Can harm export-dependent industries "[10]
+
+' Slide 6
+Set s = pres.Slides.Add(pres.Slides.Count + 1, ppLayoutText)
+s.Shapes.Title.TextFrame.TextRange.Text = "Protection vs. Progress Paradox"
+s.Shapes(2).TextFrame.TextRange.Text = "-  Protection brings short-term job stability." & vbCrLf & _
+    "-  Long-term risks: less innovation, global competitiveness declines "[5][10]
+
+' Slide 7
+Set s = pres.Slides.Add(pres.Slides.Count + 1, ppLayoutText)
+s.Shapes.Title.TextFrame.TextRange.Text = "Conclusion"
+s.Shapes(2).TextFrame.TextRange.Text = "-  Tariff/tax systems balance protection, growth, and cooperation." & vbCrLf & _
+    "-  The challenge: Balance immediate benefits with future progress "[6][9][5][10]
