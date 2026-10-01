@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Logic_Gate</title>
+</head>
+
+<body bgcolor="yellow" text="Black" style="font-size:1.4vw;">
+      <h2> ✸
+            Types of Logic Gates</h2><br>
+      <pre><b>✸Types of Logic Gates:-</b>A logic gate is a digital gate that allows data to be transferred. Logic gates, use logic to
+                       determine whether or not to pass a signal. Logic gates, on the other hand, govern the flow
+of information based on a set of rules. The following types of logic gates are commonly used:</pre> <br><br>
+
+      1.AND<br>
+      2.OR<br>
+      3.NOT<br>
+      4.NOR<br>
+      5.NAND<br>
+      6.XOR<br>
+      7.XNOR<br>
+      <h2>✸Basic Logic Gates</h2>
+      <h2>✸AND Gate</h2>
+      <pre>
+✸ An AND gate has a single output and two or more inputs.
+  When all of the inputs are 1, the output of this gate is 1.
+  1.The AND gate’s Boolean logic is Y=A.B if there are two inputs A and B.
+  2.An AND gate’s symbol and truth table are as follows:<br></pre>
+      <pre>
+Q.(1==2 & 3==4)
+  (1==2 & 4==3)
+  (2==1 & 3==4)
+  (2==1 & 4==3)</pre>
+      <table border="2" align="center" bgcolor="Red">
+            <tr>
+                  <th colspan="2">Input</th>
+                  <th>Output</th>
+            </tr>
+            <tr align="center">
+                  <td>A</td>
+                  <td>B</td>
+                  <td>A AND B</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+            </tr>
+      </table>
+      <img src="../Logic_Gate/Image/Symbol of AND gate.jpg" alt="Symbol of AND gate" height="300px" width="400px"><br>
+      ✸ Therefore, in And gate, the output is high when all the inputs are high.
+      <h2>2.OR Gate</h2>
+      <pre>
+✸ Two or more inputs and one output can be used in an OR gate.
+ 1.The logic of this gate is that if at least one of the inputs is 1, the output will be 1.
+ 2.The OR gate’s output will be given by the following mathematical procedure if there are two inputs A and B: Y=A+B</pre>
+      <pre>
+Q.(1==2 & 3==4)
+  (1==2 & 4==3)
+  (2==1 & 3==4)
+  (2==1 & 4==3)</pre>
+
+      <table border="2" align="center" bgcolor="Red">
+            <tr align="center">
+                  <th colspan="2">Input</th>
+                  <th>Output</th>
+            </tr>
+            <tr align="center">
+                  <td>A</td>
+                  <td>B</td>
+                  <td>A OR B</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>1</td>
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+            </tr>
+      </table><br>
+      <img src="../Logic_Gate/Image/Symbol of OR gate.jpg" alt="Symbol of OR gate" height="200px" weight="200px"><br>
+      <pre>Therefore, in the OR gate, the output is high when any of the inputs is high.</pre><br>
+      <h2>3.NOT Gate</h2>
+      <pre>
+✸ The NOT gate is a basic one-input, one-output gate.
+ 1.When the input is 1, the output is 0, and vice versa. A NOT gate is sometimes called an inverter because of its feature.
+ 2.If there is only one input A, the output may be calculated using the Boolean equation Y=A’.
+</pre>
+      <pre>
+Q.(1==2 & 3==4)
+  (1==2 & 4==3)
+        </pre>
+
+      <table border="2" align="center" bgcolor="Red">
+            <tr align="center">
+                  <th>Input</th>
+                  <th>Output</th>
+            </tr>
+            <tr align="center">
+                  <td>A</td>
+                  <td>NOT A</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+
+                  <td>0</td>
+            </tr>
+
+      </table><br>
+      <img src="../Logic_Gate/Image/Symbol of NOT gate.jpg" alt="Symbol of NOT gate" height="200px" weight="200px"><br>
+      <pre>✸ A NOT gate, as its truth table shows, reverses the input signal.
+      </pre><br>
+      <h2>✸
+            Universal Logic Gates
+      </h2>
+      <h2> ✸
+            NOR Gate</h2>
+      <pre>
+✸ A NOR gate, sometimes known as a “NOT-OR” gate, consists of an OR gate followed by a NOT gate.
+ 1.This gate’s output is 1 only when all of its inputs are 0. Alternatively, when all of the inputs are low, the output is high.
+ 2.The Boolean statement for the NOR gate is Y=(A+B)’ if there are two inputs A and B.</pre><br>
+      <pre>
+Q.(1==2 & 3==4)
+  (1==2 & 4==3)
+  (2==1 & 3==4)
+  (2==1 & 4==3)</pre>
+
+      <table border="2" align="center" bgcolor="Red">
+            <tr align="center">
+                  <th colspan="2">Input</th>
+                  <th>Output</th>
+            </tr>
+            <tr align="center">
+                  <td>A</td>
+                  <td>B</td>
+                  <td>A NOR B</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+            </tr>
+      </table><br>
+      <img src="../Logic_Gate/Image/sybmol of NOR gate.jpg" alt="sybmol of NOR gate" height="200px" weight="200px"><br>
+      <pre>
+✸ By comparing the truth tables, we can observe that the outputs of the NOR gate are
+  the polar opposite of those of an OR gate. The NOR gate is sometimes known as a universal gate
+  since it may be used to implement the OR, AND, and NOT gates.</pre>
+      <h2> NAND Gate</h2>
+      <pre>
+✸ A NAND gate, sometimes known as a ‘NOT-AND’ gate, is essentially a Not gate followed by an AND gate.
+ 1.This gate’s output is 0 only if none of the inputs is 0. Alternatively, when all of the inputs are not high and at least one is low, the output is high.
+ 2.If there are two inputs A and B, the Boolean expression for the NAND gate is Y=(A.B)’</pre>
+      <pre>
+Q.(1==2 & 3==4)
+  (1==2 & 4==3)
+  (2==1 & 3==4)
+  (2==1 & 4==3)</pre>
+
+      <table border="2" align="center" bgcolor="Red">
+            <tr align="center">
+                  <th colspan="2">Input</th>
+                  <th>Output</th>
+            </tr>
+            <tr align="center">
+                  <td>A</td>
+                  <td>B</td>
+                  <td>A NAND B</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>1</td>
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+            </tr>
+      </table><br>
+      <img src="../Logic_Gate/Image/symbol of NAND gate.jpg" alt="symbol of NAND gate" height="200px"
+            weight="200px"><br>
+      <pre>
+✸By comparing their truth tables, we can observe that their outputs are the polar opposite
+of an AND gate. The NAND gate is known as a universal gate because it may be used to implement
+the AND, OR, and NOT gates.</pre><br>
+      <h2>Other Logic Gates</h2>
+      <h2>XOR Gate</h2>
+      <pre>
+✸ The Exclusive-OR or ‘Ex-OR’ gate is a digital logic gate that accepts more than two inputs but only outputs one value.
+ 1.If any of the inputs is ‘High,’ the output of the XOR Gate is ‘High.’ If both inputs are ‘High,’ the output is ‘Low.’ If both inputs are ‘Low,’ the output is ‘Low.’
+ 2.The Boolean equation for the XOR gate is Y=A’.B+A.B’ if there are two inputs A and B.</pre><br>
+      <pre>
+Q.(1==2 & 3==4)
+  (1==2 & 4==3)
+  (2==1 & 3==4)
+  (2==1 & 4==3)</pre>
+
+      <table border="2" align="center" bgcolor="Red">
+            <tr align="center">
+                  <th colspan="2">Input</th>
+                  <th>Output</th>
+            </tr>
+            <tr align="center">
+                  <td>A</td>
+                  <td>B</td>
+                  <td>A XOR B</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>1</td>
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+            </tr>
+      </table><br>
+      <img src="../Logic_Gate/Image/Symbol of XOR gate.png" alt="Symbol of XOR gate" height="200px" weight="200px"><br>
+      <pre>✸Its outputs are based on OR gate logic, as we can see from the truth table.</pre><br>
+      <h2>XNOR Gate</h2>
+      <pre>
+✸ The Exclusive-NOR or ‘EX-NOR’ gate is a digital logic gate that accepts more than two inputs but only outputs one.
+ 1.If both inputs are ‘High,’ the output of the XNOR Gate is ‘High.’ If both inputs are ‘Low,’ the output is ‘High.’ If one of the inputs is ‘Low,’ the output is ‘Low.’
+ 2.If there are two inputs A and B, then the XNOR gate’s Boolean equation is: Y=A.B+A’B’.</pre><br>
+      <pre>
+Q.(1==2 & 3==4)
+  (1==2 & 4==3)
+  (2==1 & 3==4)
+  (2==1 & 4==3)</pre>
+      <table border="2" align="center" bgcolor="Red">
+            <tr align="center">
+                  <th colspan="2">Input</th>
+                  <th>Output</th>
+            </tr>
+            <tr align="center">
+                  <td>A</td>
+                  <td>B</td>
+                  <td>A XOR B</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+            </tr>
+            <tr align="center">
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+            </tr>
+            <tr align="center">
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+            </tr>
+      </table><br>
+      <img src="../Logic_Gate/Image/Symbol of Xnor gate.jpg" alt="Symbol of XNOR gate" height="200px"
+            weight="200px"><br>
+      <pre>✸The truth table shows that its outputs are based on NOR gate logic.</pre>
+</body>
+
+</html>
